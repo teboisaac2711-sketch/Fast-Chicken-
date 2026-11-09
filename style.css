@@ -1,0 +1,33 @@
+body,html{
+   font-family: Arial, Helvetica, sans-serif;
+   height: 80%;
+   width: 100vw;
+   display: flex;
+   justify-content: center;
+   background-color: darkred;
+
+}
+.contenedor{
+   text-align: center;
+   padding: 10px;
+   background-color: darkgoldenrod;
+   border-radius: 10px;
+   box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.boton-redireccion{
+    background-color: rgb(255, 137, 2);
+    border: none;
+    color: rgb(0, 0, 0);
+    padding: 40px 20px;
+    display: inline-block;
+    margin-top: 50px;
+    border-radius: 50px;
+    text-decoration: none;
+}
+.boton-redireccion.hover{
+   background-color: brown;
+}
+img{
+   width: 190px;
+}
